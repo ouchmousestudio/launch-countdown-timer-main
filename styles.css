@@ -35,7 +35,9 @@ h1 {
   font-weight: bold;
 }
 
-.countdown-container {}
+.countdown-container {
+  padding: 0;
+}
 
 .countdown-ticker {
   display: inline-block;
