@@ -1,0 +1,85 @@
+.page {
+  overflow-x: scroll;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #1E1E28;
+  background-image: url("images/pattern-hills.svg"), url("images/bg-stars.svg"), linear-gradient(#1E1E28, #251C2C);
+  background-repeat: no-repeat;
+  background-size: 100%, 100%, 100%;
+  background-position: bottom, center, center;
+  background-attachment: fixed;
+}
+
+body {
+  font-family: 'Red Hat Text', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+}
+
+header {
+  padding: 10%;
+  color: white;
+}
+
+footer {
+  padding-top: 10%;
+  color: hsl(237, 18%, 59%);
+}
+
+h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.countdown-container {}
+
+.countdown-ticker {
+  display: inline-block;
+  padding: 2em;
+}
+
+.countdown-numbers {
+  font-size: 5em;
+  color: hsl(345, 95%, 68%);
+}
+
+.countdown-text {
+  color: hsl(237, 18%, 59%);
+}
+
+.media-icons {
+  padding: 8% 0 2% 0 ;
+}
+
+.sns-icon {
+  padding: 1.2%;
+}
+
+.sns-icon:hover {
+  filter: invert(49%) sepia(96%) saturate(1725%) hue-rotate(312deg) brightness(103%) contrast(97%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  letter-spacing: 4px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  padding-bottom: 5%;
+}
+
+/* :root {
+  ### Primary
+  --grayishBlue: hsl(237, 18%, 59%)
+  --softRed: hsl(345, 95%, 68%)
+  ### Neutral
+  --white: hsl(0, 0%, 100%)
+  --darkDesaturatedBlue: hsl(236, 21%, 26%)
+  --veryDarkBlue: hsl(235, 16%, 14%)
+  --blackBlue: hsl(234, 17%, 12%)
+} */
