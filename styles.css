@@ -21,7 +21,7 @@ body {
 }
 
 header {
-  padding: 10%;
+  padding: 9% 0 6% 0;
   color: white;
 }
 
@@ -52,7 +52,7 @@ h1 {
 }
 
 .media-icons {
-  padding: 8% 0 2% 0;
+  padding: 6% 0 2% 0;
 }
 
 .sns-icon {
